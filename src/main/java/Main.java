@@ -1,15 +1,18 @@
 import java.io.IOException;
 
-public class Main extends MagicNumber {
+
+public class Main extends MagicNumber{
 
 
     public static void main(String[] args) throws IOException {
 
-        returnType("zaba.jpg");
+        MagicNumber magicNumber = new MagicNumber();
 
-        returnType("SmallFullColourGIF.gif");
+        magicNumber.returnType("zaba.jpg");
 
-        returnType("Przyklad.txt");
+        magicNumber.returnType("SmallFullColourGIF.gif");
+
+        magicNumber.returnType("Przyklad.txt");
 
     }
 
