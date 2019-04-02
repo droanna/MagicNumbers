@@ -5,10 +5,7 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public abstract class MagicNumber2 {
-
-    public MagicNumber2() {
-    }
+public abstract class AbstractMagicNumber {
 
     public void returnType(String fileName) throws IOException {
         Logger logger = Logger.getLogger(Class.class.getName());

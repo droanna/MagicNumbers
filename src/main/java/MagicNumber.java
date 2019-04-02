@@ -3,7 +3,7 @@ import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class MagicNumber extends MagicNumber2 {
+public class MagicNumber extends AbstractMagicNumber {
 
     public MagicNumber() {
     }

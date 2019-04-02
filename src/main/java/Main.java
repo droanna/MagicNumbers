@@ -1,7 +1,7 @@
 import java.io.IOException;
 
 
-public class Main extends MagicNumber{
+public class Main {
 
 
     public static void main(String[] args) throws IOException {
